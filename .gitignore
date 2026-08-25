@@ -1,0 +1,71 @@
+logs/
+*.log
+
+# =========================
+# .NET / Visual Studio / Rider
+# =========================
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+.idea/
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.scc
+
+# Published output
+[Oo]utput/
+[Rr]elease/
+[Dd]ebug/
+x64/
+x86/
+BuildLog.htm
+
+# Diagnostics / Profiler
+*.tss
+*.dotCover
+
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.local
+*.pem
+*.key
+secrets.json
+
+# =========================
+# Operating System Files
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+~*
+.fuse_hidden*
+.directory
+.Trash-*
+
+# =========================
+# IDEs & Editors
+# =========================
+.vscode/
+*.swp
+*.swo
+*~
